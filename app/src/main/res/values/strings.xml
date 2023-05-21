@@ -1,0 +1,422 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Bari Vara</string>
+    <string name="app_name_bn">বাড়ি ভাড়া</string>
+    <string name="app_name2">GHORAMI</string>
+    <string name="app_name_bn2">ঘরামি</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="bed">bed</string>
+    <string name="bath">bath</string>
+    <string name="floor">floor</string>
+    <string name="size">size</string>
+    <string name="sinfo">note</string>
+    <string name="home_type">home type</string>
+    <string name="rent_type">rental type</string>
+    <string name="facility">facility</string>
+    <string name="title">title</string>
+    <string name="rent">rent</string>
+    <string name="advance">advance</string>
+    <string name="utility">utility</string>
+    <string name="owner"> Owner Name </string>
+    <string name="phone">Phone</string>
+    <string name="location">location</string>
+    <string name="thana">thana</string>
+
+    <string name="home_details">home details</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="home_location">property location</string>
+    <string name="home_sinfo">summery</string>
+
+
+
+    <string name="Normal">general</string>
+    <string name="Satellite">satellite</string>
+    <string name="Terrain">terrain</string>
+    <string name="Hybrid">hybrid</string>
+    <string name="Type">Type: </string>
+
+    <string name="Bachelor">Bachelor</string>
+    <string name="Sfamily">Small family</string>
+    <string name="Family">Family</string>
+    <string name="Bhostel">Boys Hostel</string>
+    <string name="Ghostel">Girls Hostel</string>
+    <string name="wmHostel">Working Women Hostel</string>
+    <string name="Others">Others</string>
+
+
+    <string name="Bachelork">Bachelor</string>
+    <string name="Sfamilyk">Small family</string>
+    <string name="Familyk">Family</string>
+    <string name="Bhostelk">Boys</string>
+    <string name="Ghostelk">Girls</string>
+    <string name="wmHostelk">Women</string>
+    <string name="Othersk">Others</string>
+
+    <string name="Flat">Flat</string>
+    <string name="Apartment">Apartment</string>
+    <string name="Concord">Concord</string>
+    <string name="Commercial">Commercial</string>
+
+    <string name="Parking">Parking</string>
+    <string name="Spool">Swimming pool</string>
+    <string name="Gym">Fitness Center</string>
+    <string name="GasSupply">Gas Supply</string>
+    <string name="WaterS">24/7 Electricity</string>
+    <string name="GeneratorS">Generatoe</string>
+    <string name="Wifi">Internet/Wifi</string>
+    <string name="Lift">Lift</string>
+    <string name="RoadLane">House no, Road no.</string>
+    <string name="UpdateData">Update Information</string>
+    <string name="PostHome">Post a home</string>
+    <string name="PaymentD">Rent and other cost</string>
+    <string name="Logout">Logout</string>
+    <string name="Offer">Offer</string>
+    <string name="Home">Home</string>
+
+    <string name="user_offer">Your offer will come sooon.</string>
+    <string name="phonev">Verify Phone</string>
+    <string name="mailv">Verify Email</string>
+    <string name="locationv">Verify Address</string>
+    <string name="paymentv">Verify Payment Method</string>
+    <string name="videov">Verify Video</string>
+    <string name="verifyU">Verify yourself</string>
+    <string name="verifyrq">Your are not a verified member</string>
+    <string name="verifyok">Your are a verified member</string>
+    <string name="premium">Be a premium member</string>
+    <string name="premiumok">Your are a Premium Member</string>
+
+    <string name="downloadLink">https://play.google.com/store/apps/details?id=com.ghorami.rongpencill.barivara</string>
+    <string name="appHash">#barivara</string>
+    <string name="appSlogan">share space earn money</string>
+    <string name="myActivity">myActivity</string>
+    <string name="model">Model</string>
+    <string name="version">Version</string>
+    <string name="versionSerial">37.10.e.20</string>
+    <string name="vRelease">37.10.e.20</string>
+    <string name="mailAddress">barivara01@gmail.com</string>
+    <string name="bodyText">Please leave your feedback here.
+Please do not edit the information below:
+</string>
+    <string name="aboutDev">About Developer</string>
+    <string name="devName">Farzana Munia</string>
+    <string name="devPhone">+8801686716878</string>
+    <string name="devEmail">barivara01@gmail.com</string>
+    <string name="devInstitue">Institute of Information Technology (IIT)
+   Jahangirnagar University</string>
+    <string name="devFacebook">barivara</string>
+    <string name="devSkype">barivara</string>
+    <string name="MapView">Map View</string>
+    <string name="ListView">List View</string>
+
+    <string name="adCategory">Ad type</string>
+    <string name="adRent">All Rent</string>
+    <string name="adSell">Sell</string>
+    <string name="sellType">Sell type-</string>
+    <string name="Price">Price</string>
+    <string name="PaymentSell">Sell Price</string>
+
+    <string name="Bari">Home/house</string>
+    <string name="homeSpace">Land for home</string>
+    <string name="OfficeSpace">Office Space</string>
+    <string name="CommercialSpace">Commercial Space/Shopping mall</string>
+    <string name="FarmSpace">Farm</string>
+    <string name="PaddyField">Paddy field</string>
+    <string name="GardenField">Garden/garden land</string>
+    <string name="Dokan">Shop/Stall</string>
+    <string name="Factory">Factory</string>
+    <string name="Sell">Sell</string>
+    <string name="Foode">With Food</string>
+    <string name="NoFoode">Without Food</string>
+    <string name="Food">With food</string>
+    <string name="NoFood">Without food</string>
+
+    <string name="search">search</string>
+
+    <string name="call">Call</string>
+    <string name="wMobile">Mobile Number</string>
+    <string name="city">District</string>
+    <string name="address">Address</string>
+
+    <string name="fullName">Your Name</string>
+    <string name="mobileNumber"> Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="Profession">Your Profession</string>
+    <string name="Company">Company/Institute Name</string>
+    <string name="NID">NID/Passport No</string>
+    <string name="Nationality">Nationality</string>
+    <string name="cityk">District</string>
+    <string name="addressk">Address</string>
+    <string name="referId">Refer Code</string>
+    <string name="passowrd">Password</string>
+    <string name="confirmPassword">Confirm your password</string>
+    <string name="signUp">Signup</string>
+
+    <string name="login">Login</string>
+    <string name="show_pwd">See password</string>
+    <string name="hide_pwd">Hide password</string>
+    <string name="save_pwd">Save password</string>
+    <string name="unsave_pwd">Remove password</string>
+    <string name="terms_conditions">if you agree with condition. Check this box.</string>
+    <string name="already_user">Are you already registered. login here</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+
+    <string name="forgot">Forget your password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">If your are not member, register here.</string>
+
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+
+    <string name="app_label"> Search for Rent </string>
+    <string name="search_hint">Search Home</string>
+    <string name="search_view">Enter search</string>
+
+    <string name="fullNamen">আপনার নাম</string>
+    <string name="mobileNumbern">মোবাইল নম্বর</string>
+    <string name="confirmPasswordn">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="terms_conditionsn">শর্তাবলীর সাথে একমত হলে এখানে ক্লিক করুন। </string>
+    <string name="signUpn">নিবন্ধন করুন</string>
+    <string name="referIdn">Refer Code</string>
+    <string name="passowrdn">আপনার পাসওয়ার্ড </string>
+    <string name="loginn">প্রবেশ</string>
+    <string name="Professionn">আপনার পেশা (স্টুডেন্ট/চাকরিজীবি)</string>
+    <string name="Companyn">প্রতিষ্ঠানের নাম (কোম্পানি/বিশ্ববিদ্যালয়/কলেজ)</string>
+    <string name="emailn">ইমেইল </string>
+    <string name="Nationalityn">জাতীয়তা</string>
+    <string name="NIDn">এনআইডি/পাসপোর্ট নং</string>
+
+
+    <string name="ybalance">Your balance</string>
+    <string name="buyConnect">buy new connect</string>
+    <string name="earnConnect">earn new money</string>
+    <string name="tPoint">today\'s point</string>
+    <string name="rewardPoint">Reward Points</string>
+    <string name="withdrawMoney">Withdraw Money</string>
+    <string name="tearn">total earning</string>
+    <string name="appdue">app due</string>
+    <string name="treview">total review</string>
+    <string name="lsell">lifetime sell earning</string>
+    <string name="lrent">lifetime rent</string>
+    <string name="referralpoint">your referral point</string>
+    <string name="getreport">get your report</string>
+    <string name="senddue">send due money</string>
+    <string name="InsertPicture">Upload Picture</string>
+    <string name="adQuantity">Your post quantity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="searchAnything">Write anything for search</string>
+    <string name="totalPay">Total Pay</string>
+    <string name="sFamily">Family</string>
+    <string name="Student">Student</string>
+    <string name="Girls">Girls</string>
+    <string name="sStudent">Boys Hostel</string>
+    <string name="Woment">Women Hostel</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+
+    <string name="slide_1_title">বাড়ি ভাড়া তে স্বাগতম</string>
+    <string name="slide_1_desc">বাসা খুঁজে নিন সহজেই</string>
+
+
+    <string name="slide_3_title">লাইভ চ্যাট</string>
+    <string name="slide_3_desc">সরাসরি যোগাযোগ করুন লাইভ চ্যাটবট দিয়ে</string>
+
+    <string name="slide_2_title">মেয়েদের বিশেষ ফিচার</string>
+    <string name="slide_2_desc">খুঁজে নিন সাধ্যের মধ্যে নিরাপদ বাসা</string>
+
+    <string name="slide_6_title">টাকা কামান</string>
+    <string name="slide_6_desc">বিজ্ঞাপন দেন আর টাকা কামান</string>
+
+    <string name="slide_4_title">বেঁচা-কেনা করুন</string>
+    <string name="slide_4_desc">খুঁজে নিন প্রকৃত ক্রেতা</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_about">About</string>
+    <string name="sell_type">Sell Type</string>
+
+
+    <string name="facebook_app_id">barivara</string>
+    <string name="facebook_app_id_k">barivara</string>
+    <string name="fb_login_protocol_scheme_k">barivara</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://barivara.com/.well-known/assetlinks.json\" }]</string>
+    <string name="seeDetails" tools:ignore="MissingTranslation">আরো দেখুন</string>
+    <string name="AgentBn">Give Rent</string>
+    <string name="UserBn">Want Rent</string>
+    <string name="Close">Cancel</string>
+
+
+    <string name="sTitle">Title</string>
+    <string name="wTitle">Write your post title</string>
+    <string name="sDetails">Details Information</string>
+    <string name="wBed">bed</string>
+    <string name="Person">Person</string>
+    <string name="wSize">Size(squarefit)</string>
+    <string name="wRtype">Rental Type</string>
+    <string name="wHtype">Home Type</string>
+    <string name="wFacility">Facility</string>
+    <string name="wDayRent">Rent for Days</string>
+    <string name="wFood_bill">Food Bill</string>
+    <string name="wGas">Gas Bill</string>
+    <string name="wWater">Water Bill</string>
+    <string name="wElectric">Electricity Bill</string>
+    <string name="wAdvance">Advance</string>
+    <string name="wService">Service Bill</string>
+    <string name="wContact">Home Address</string>
+    <string name="wOwner">Owner/Manager Name</string>
+
+    <string name="sPost">Post</string>
+    <string name="sCancel">Cancel</string>
+    <string name="wRoom">Bed Room</string>
+
+
+    <string-array name="android_layout_arrays">
+        <item>Choose a Layout</item>
+        <item>LinearLayout</item>
+        <item>RelativeLayout</item>
+        <item>FrameLayout</item>
+        <item>TableLayout</item>
+        <item>AbsoluteLayout</item>
+        <item>GridLayout</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Dhaka</item>
+        <item>Sylhet</item>
+        <item>Chittagong</item>
+        <item>Comilla</item>
+        <item>Barishal</item>
+        <item>Rajshahi</item>
+        <item>Khulna</item>
+    </string-array>
+
+    <string-array name="p_type">
+        <item>WebAdmin</item>
+        <item>MarketingExecutive</item>
+        <item>BPO</item>
+
+    </string-array>
+
+
+    <string-array name="adty">
+        <item>RENT</item>
+        <item>SELL</item>
+    </string-array>
+
+    <string-array name="adty2">
+        <item>RENT</item>
+        <item>BUY</item>
+    </string-array>
+
+    <string-array name="rent">
+        <item>1500–2000</item>
+        <item>2000–4000</item>
+        <item>5000–7000</item>
+        <item>8000–10000</item>
+        <item>11000–15000</item>
+        <item>16000–20000</item>
+        <item>21000–25000</item>
+        <item>26000–40000</item>
+        <item>40000-up</item>
+    </string-array>
+
+    <string-array name="bedq">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="bathq">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="r_type">
+        <item>Single</item>
+        <item>Family</item>
+        <item>Bachelor</item>
+        <item>Student</item>
+        <item>Girls</item>
+        <item>Working Women</item>
+    </string-array>
+
+    <string-array name="h_type">
+        <item>Flat</item>
+        <item>Concord</item>
+        <item>Boys Hostel</item>
+        <item>Mes</item>
+        <item>Girls Hostel</item>
+        <item>Teachers Home</item>
+        <item>Students Home</item>
+    </string-array>
+
+    <string-array name="facility">
+        <item>Parking/Garage</item>
+        <item>Indoor Games</item>
+        <item>Swimming Pool</item>
+        <item>Internet/Wifi</item>
+        <item>Gym/Fitness Centre</item>
+        <item>Laundry</item>
+    </string-array>
+
+    <string name="app_key">"barivara.com, barivara, barivara.com, barivara, bari vara, bari vara.com, ghorami, ghorami.com,
+barivara.net, bari vara.com, barivara, to-let, home rent, house to let, sell, buy, sell-buy, home appliance, Flat, Apartment, home,
+house,
+বাসা ভাড়া, বাড়ি ভাড়া, মেস ভাড়া, হোস্টেল ভাড়া, প্রপার্টি ভাড়া, ঘর ভাড়া, বাসা, বাড়ি, মেস, হোস্টেল, ফ্ল্যাট, এপার্টমেন্ট, ক্রয়-বিক্রয়, এখানে বাড়ি ভাড়া দেওয়া হয়, এখানে বাসা ভাড়া পাওয়া যায়, সব ধরণের ভাড়ার খবর, ছাত্র হোস্টেল, ছাত্রী হোস্টেল, কর্মজীবি মহিলা হোস্টেল, এখানে সব ধরনের বাসা-বাড়ি-ফ্ল্যাট-এপার্টমেন্ট-দোকান-ফ্যাক্টরী-অফিস-অফিস এক্সেরসরিজ ভাড়া ও ক্রয়-বিক্রয় করা হয়,
+ববাড়িভাড়া, বাড়ি ভাড়া"</string>
+
+    <string name="aboutus">
+Barivara is a mobile apps based on the house rent for Bangladeshi people. The main aim behind the development of this Apps is helped to the people for searching house quickly. It is totally free to use for the people and mainly takes care of the house rent. I mainly designed the ideal House Rent App that delivers location aware information, House rent information with Realestate Info that user want in an intuitive and user friendly format. Barivara is a fully owned subsidiary of the Rongpencill Group.
+
+Barivara will provide the exact information regarding the home / house / flat / apartment rent that are available for the rent and their status specific to availability. It will help the visitor to see the details of rental and can communicate to them with the required information that is expected by the system through the latest digital devices.
+
+</string>
+    <string name="terms">
+Your privacy is important to me and I\'m committed to protecting the information that identifies you personally, where you have chosen to keep it private ("Personal Information").
+
+When you provide public information without identifying yourself, I\'m ensuring you that I will protect your personal identity. Please keep in mind that I\'m not responsible for any Personal Information you choose to submit in any public area of the Services. I won\'t identify you personally to third parties, except in accordance with this privacy policy. Of course, if you choose to respond to an advertised offer with your name and contact information, you will no longer be anonymous to the advertiser.
+
+I will retain your Personal Information for as long as you have an active account, as needed to provide you with the services, to comply with our legal, financial reporting, or compliance obligations, and to enforce this privacy policy. Please note that while I'm ready to assist you in managing the Personal Information you provide to us, I can't always delete records due to financial reporting, compliance, or other reasons.
+
+If you have any questions about this privacy statement, or the privacy practices, please email us at barivara01@gmail.com.
+
+Please note that this policy may be amended from time to time. You should check back for the most current version before relying on any of the provisions in this privacy policy. By using the Services, you agree to the terms of this Privacy Policy.
+ó Updated April 2023
+    </string>
+
+    <string name="discloser">Barivara</string>
+    <string name="others">Barivara</string>
+    <string name="privacy">
+Your privacy is important to me and I\'m committed to protecting the information that identifies you personally, where you have chosen to keep it private ("Personal Information").
+
+When you provide public information without identifying yourself, I\'m ensuring you that I will protect your personal identity. Please keep in mind that I\'m not responsible for any Personal Information you choose to submit in any public area of the Services. I won\'t identify you personally to third parties, except in accordance with this privacy policy. Of course, if you choose to respond to an advertised offer with your name and contact information, you will no longer be anonymous to the advertiser.
+
+I will retain your Personal Information for as long as you have an active account, as needed to provide you with the services, to comply with our legal, financial reporting, or compliance obligations, and to enforce this privacy policy. Please note that while I'm ready to assist you in managing the Personal Information you provide to us, I can't always delete records due to financial reporting, compliance, or other reasons.
+
+If you have any questions about this privacy statement, or the privacy practices, please email us at barivara01@gmail.com.
+
+Please note that this policy may be amended from time to time. You should check back for the most current version before relying on any of the provisions in this privacy policy. By using the Services, you agree to the terms of this Privacy Policy.
+ó Updated April 2023
+  </string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cardSend"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="60dp"
+        android:clipToPadding="false">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/my_message"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentRight="true"
+            android:id="@+id/messageImage"
+            android:visibility="gone"
+
+            />
+        <TextView
+            android:layout_below="@+id/messageImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMessage"
+            android:background="@drawable/my_message"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:elevation="2dp"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:text="Placeholder message"
+            />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMessage"
+            android:layout_alignRight="@+id/tvMessage"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:text="time"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/ivstate"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/tvMessage"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/circle"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            />
+
+
+        <TextView
+            android:id="@+id/tvImg"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:layout_marginTop="3dp"
+            android:text="000"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivbachelor"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/profile_circular_border_imageview22"
+            android:padding="5dp"/>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cardRec"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="60dp"
+        android:clipToPadding="false">
+
+        <ImageView
+            android:id="@+id/ivbachelor1"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle"
+            android:layout_width="34dp"
+            android:layout_height="34dp" />
+
+        <TextView
+            android:id="@+id/tvName1"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/ivbachelor1"
+            android:layout_alignTop="@+id/ivbachelor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:text="Rose"/>
+        <ImageView
+            android:layout_marginLeft="45dp"
+            android:layout_toRightOf="@+id/ivbachelor1"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/rec_message"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/messageImage2"
+            android:visibility="gone"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMessage1"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/ivbachelor1"
+            android:layout_below="@+id/messageImage2"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/rec_message"
+            android:elevation="2dp"
+            android:textSize="18dp"
+            android:text="Welcome. Are you okay? This is a long message that should probably wrap."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTime1"
+            android:text="12dp"
+            android:layout_below="@+id/tvMessage1"
+            android:layout_alignLeft="@+id/tvMessage1"
+            />
+
+        <TextView
+            android:id="@+id/tvImg1"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:layout_marginTop="3dp"
+            android:text="000"/>
+    </RelativeLayout>
+
+</LinearLayout>

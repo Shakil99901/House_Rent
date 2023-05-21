@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_user_pro" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:weightSum="2"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPic1"
+            android:layout_marginRight="10dp"
+            android:textSize="14dp"
+            android:layout_gravity="center"
+
+
+            />
+
+        <ImageView
+            android:layout_width="200dp"
+
+            android:layout_height="100dp"
+            android:id="@+id/ivPic1"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add Pic 1"
+            android:id="@+id/btnPick1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPic2"
+            android:layout_marginRight="10dp"
+            android:textSize="14dp"
+            android:layout_gravity="center"
+
+
+            />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:id="@+id/ivPic2"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add Pic 2"
+            android:id="@+id/btnPick2"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+
+        >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPic3"
+        android:layout_marginRight="10dp"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+
+
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivPic3"
+        android:layout_gravity="center"
+
+        />
+
+
+</LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add Pic 3"
+            android:id="@+id/btnPick3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+
+
+            />
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#ACACA7"
+            android:textSize="30dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="35dp"
+            android:visibility="gone"/>
+
+
+    <Button
+        android:layout_margin="10dp"
+
+        android:id="@+id/btnAddPic"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp"
+        android:background="#00BCD4"
+        android:textAllCaps="true"
+        android:padding="4dp"
+        android:text="Upload Photo"
+        android:textAlignment="center"
+        android:textColor="#FFF7F4F4"
+        android:visibility="visible" />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

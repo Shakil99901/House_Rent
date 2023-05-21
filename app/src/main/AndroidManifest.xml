@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ghorami.rongpencill.barivara">
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REMyFirebaseInstanceIDServiceAD_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
+        <activity android:name=".SopnoWeb"
+            android:exported="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="barivara.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <activity android:name=".CarrerApply" />
+        <activity android:name=".CarrerJob" />
+        <activity android:name=".AgentSettingDetails" />
+        <activity android:name=".AgentAddDetails_offline" />
+        <activity android:name=".AgentPostMorePic" />
+        <activity android:name=".AgentAddDetailsSell" />
+        <activity android:name=".OfflineBasic" />
+        <activity android:name=".BasicSearch" />
+        <activity android:name=".OfflineBasicAdDetails" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="barivara.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Welcome"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AgentSignup"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AgentDashboard" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".AgentSetting" />
+        <activity android:name=".AgentMenu" />
+        <activity android:name=".AgentProfile" />
+        <activity android:name=".AgentEarnPoint" />
+        <activity
+            android:name=".AgentNewAdd"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".UserSignup"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".UserAddSell" />
+        <activity android:name=".UserAddRent" />
+        <activity android:name=".UserStates" />
+        <activity
+            android:name=".AgentNewSellAd"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AgentAllPost" />
+        <activity android:name=".AgentAllAddSell" />
+        <activity android:name=".AgentPostDetails" />
+        <activity android:name=".AgentPostDetailsSell" />
+        <activity android:name=".AgentMoneySend" />
+        <activity android:name=".AgentMoneyReport" />
+        <activity android:name=".AgentMoneyRefer" />
+        <activity android:name=".AgentMoneyWithdraw" />
+        <activity android:name=".AgentAllAdd" />
+        <activity android:name=".BasicHome"
+            android:exported="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="barivara.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BasicAddList" />
+        <activity android:name=".BasicAdDetails" />
+        <activity android:name=".BasicAdDetails_Offline" />
+        <activity android:name=".BasicAdContact" />
+        <activity android:name=".BasicAddPicture" />
+        <activity android:name=".BasicHomeOffline" />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".AgentSearch" />
+        <activity
+            android:name=".AgentProfileEdit"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AgentPostUpdate"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AgentPostUpdatePicture" />
+        <activity android:name=".AgentShop" />
+        <activity android:name=".AgentAddRent" />
+        <activity android:name=".UserAddRentList" />
+        <activity android:name=".AgentAddDetails" />
+        <activity android:name=".ImageGallery" />
+        <activity android:name=".ImageGalleryUpdate" />
+        <activity android:name=".AgentAddContact" />
+        <activity android:name=".AgentAllList" />
+        <activity android:name=".BasicAgentAllList" />
+        <activity android:name=".OrderHome" />
+        <activity android:name=".AgentOrderHome" />
+        <activity android:name=".UserMenu" />
+        <activity android:name=".BasicHomeSell"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="barivara.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConnetNetwork" />
+        <activity
+            android:name=".DetailsChat"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity android:name=".AgentMessageAll" />
+        <activity android:name=".AllTenant" />
+        <activity android:name=".AllTenantBill" />
+        <activity android:name=".AllTentRequest" />
+        <activity android:name=".AllTenantRequest" />
+        <activity android:name=".AllTenantNotice" />
+        <activity android:name=".AllTenantPay" />
+        <activity android:name=".AllTenantProfile" />
+        <activity android:name=".AllOwnerProfile" />
+        <activity android:name=".AllTenantNewBill" />
+        <activity android:name=".AllTenantNewFacility" />
+        <activity android:name=".AllTenantNewDetails" />
+        <activity android:name=".AgentMessageList" />
+        <activity android:name=".AllProfileGeneral" />
+        <activity
+            android:name=".AgentMessageListDetails"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AgentMessageDetails"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AgentMessageDetailsOnline"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".BasicAdDetailsSell" />
+    </application>
+
+</manifest>

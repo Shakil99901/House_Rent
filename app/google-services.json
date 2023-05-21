@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "107390883543",
+    "project_id": "barivara-28496",
+    "storage_bucket": "barivara-28496.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107390883543:android:40efa529c15045176e4292",
+        "android_client_info": {
+          "package_name": "com.ghorami.rongpencill.barivara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107390883543-bab3jev3b2e6liituv9kluhop45or7f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghorami.rongpencill.barivara",
+            "certificate_hash": "ee5746824fe166433467537d1fb2a0183ede80a7"
+          }
+        },
+        {
+          "client_id": "107390883543-2ur1klc7ekjhhj02se9dokcbctpqngoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEn3SMpMdEt8moQDJvqtp36_Lw5hlEM3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107390883543-2ur1klc7ekjhhj02se9dokcbctpqngoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

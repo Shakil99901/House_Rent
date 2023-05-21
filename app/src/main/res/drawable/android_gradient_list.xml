@@ -1,0 +1,21 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/agrade"
+        android:duration="4000" />
+
+    <item
+        android:drawable="@drawable/agrade2"
+        android:duration="4000" />
+
+    <item
+        android:drawable="@drawable/agrade3"
+        android:duration="4000" />
+
+    <item
+        android:drawable="@drawable/agrade4"
+        android:duration="4000" />
+
+    <item
+        android:drawable="@drawable/agrade5"
+        android:duration="4000" />
+</animation-list>

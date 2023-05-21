@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/coordinator_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#04791f"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    xmlns:design="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_user_pro" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#f4f7f5"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="65dp"
+            android:orientation="vertical"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+
+            >
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                >
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/ivAgent"
+                        android:layout_width="45sp"
+                        android:layout_height="45sp"
+                        android:background="@drawable/cerclebackgroundpurple"
+                        android:padding="4dp"
+                        android:src="@drawable/men_sell"
+                        android:visibility="visible"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvAgent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Verified agent"
+                        android:textSize="20dp"
+                        android:padding="5dp"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="#04791f"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textAllCaps="true"
+                        android:text="total Cost"
+                        android:textColor="#f4f411"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/tvtotalCost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="25000/-"
+                        android:textAlignment="center"
+                        android:textColor="#f4efef"
+                        android:textSize="44dp"
+                        android:padding="5dp"
+                        />
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp">
+
+                    <LinearLayout
+                        android:layout_width="81dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="15dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="57dp"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="Cost Breakdown"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textSize="18dp" />
+
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentTop="true"
+                                    android:text="Home Price"
+                                    android:textSize="18dp" />
+
+                                <TextView
+                                    android:id="@+id/tvhomePrice"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentRight="true"
+                                    android:text="3700/-"
+                                    android:textSize="18dp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentTop="true"
+                                    android:text="Advance"
+                                    android:textSize="18dp" />
+
+                                <TextView
+                                    android:id="@+id/tvhomeAdvance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentRight="true"
+                                    android:text="1500/-"
+                                    android:textSize="18dp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentTop="true"
+                                    android:text="Others"
+                                    android:textSize="18dp" />
+
+                                <TextView
+                                    android:id="@+id/tvhomeOthers"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentRight="true"
+                                    android:text="500/-"
+                                    android:textSize="18dp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentTop="true"
+                                    android:text="Agent Commission"
+                                    android:textSize="18dp" />
+
+                                <TextView
+                                    android:id="@+id/tvagentCommission"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentRight="true"
+                                    android:text="500/-"
+                                    android:textSize="18dp" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:clickable="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="15dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Cash On Booking (COB)"
+                                android:textSize="16dp"
+                                android:textColor="#313235"
+                                android:textAlignment="center"
+                                android:padding="5dp"
+                                />
+
+                            <LinearLayout
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/ivAgentPic"
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_launcher_e"
+                                    android:layout_gravity="left"
+                                    android:layout_marginRight="10dp"
+                                    android:padding="0dp"
+                                    />
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tvAgentName"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="agent Name"
+                                        android:textSize="15dp"
+                                        android:layout_gravity="left"
+                                        android:layout_marginLeft="10dp"
+                                        />
+
+                                    <TextView
+                                        android:id="@+id/tvAgentID"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="agent Name"
+                                        android:textSize="13dp"
+                                        android:layout_gravity="left"
+                                        android:layout_marginLeft="10dp"
+                                        />
+                                    <TextView
+                                        android:id="@+id/tvAgentPhone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="agent Name"
+                                        android:textSize="13dp"
+                                        android:layout_gravity="left"
+                                        android:layout_marginLeft="10dp"
+                                        />
+
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:clickable="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="15dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Was this a good agent?"
+                                android:textSize="16dp"
+                                android:textColor="#313235"
+                                android:textAlignment="center"
+                                android:padding="5dp"
+                                />
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/tvFeedPos"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:drawableTop="@drawable/ic_thumb_yes"
+                                    android:text="Yes"
+                                    android:layout_gravity="left"
+                                    android:layout_marginRight="25dp"
+                                    android:padding="10dp"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tvFeedNeg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:drawableTop="@drawable/ic_thumb_no"
+                                    android:text="No"
+                                    android:layout_gravity="right"
+                                    android:layout_marginLeft="25dp"
+                                    android:padding="10dp"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnConCollect"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="I have gave 500 BDT"
+                        android:textSize="16dp"
+                        android:textColor="#f2f2ea"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:background="#d62111"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

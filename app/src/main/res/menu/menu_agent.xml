@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/action_msg"
+        android:icon="@drawable/men_email"
+        app:showAsAction="always|collapseActionView"
+        android:title="message"
+        />
+
+
+    <item
+        android:id="@+id/action_home"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/men_home"
+        android:title="home" />
+
+
+
+    <item
+        android:id="@+id/menue"
+        android:title="menu"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_menu"
+        />
+
+
+
+</menu>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+
+    >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_chat" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvId21"
+                android:visibility="gone"
+
+                />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerAgent"
+                android:layout_width="match_parent"
+                android:divider="#fff"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                app:stackFromEnd="true"
+                app:reverseLayout="true"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                />
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnAttach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:padding="20dp"
+                    android:tint="@color/Blue"
+                    android:background="@drawable/ic_menu_camera"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="110dp"
+                    android:scaleType="centerInside"
+                    android:id="@+id/ivSend"
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:hint="Write a message"
+                    android:inputType="text"
+                    android:text="" />
+
+                <ImageButton
+                    android:id="@+id/btnSend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:padding="20dp"
+                    android:background="@drawable/ic_send_black"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/Home"
+        android:icon="@drawable/men_home"
+         />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/Logout"
+        android:icon="@drawable/men_exit"        />
+
+
+    <item
+        android:id="@+id/offer"
+        android:title="@string/Offer"
+        android:icon="@drawable/menu_offer"
+        />
+</menu>

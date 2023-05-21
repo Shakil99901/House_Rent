@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="20dp"
+    >
+
+        <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:orientation="vertical"
+
+            android:layout_centerInParent="true"
+            >
+
+
+
+
+        <ImageView
+            android:id="@+id/ivPic"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:visibility="visible"
+            android:src="@drawable/ic_launcher_e"
+            />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textSize="16dp"
+                android:text="tewewewewewe"
+                android:layout_below="@+id/btnDelete"
+                android:visibility="gone"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:id="@+id/btnDelete"
+                android:background="#C62828"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/ivPic"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:id="@+id/btnEdit"
+                android:background="#00695C"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btnDelete"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:id="@+id/bottomView"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+
+</RelativeLayout>

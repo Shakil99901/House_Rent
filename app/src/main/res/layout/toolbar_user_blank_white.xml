@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="28dp"
+    android:layout_height="120dp"
+    android:background="@color/White"
+    >
+
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:id="@+id/userImage"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"
+
+    />
+
+    <TextView
+        android:id="@+id/tool_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name_bn"
+        android:textColor="#AD1457"
+        android:textSize="17sp"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+
+        />
+
+
+
+
+
+</androidx.appcompat.widget.Toolbar>

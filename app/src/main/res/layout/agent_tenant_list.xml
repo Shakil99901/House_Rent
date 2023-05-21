@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/cardSen"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left">
+            <ImageView
+                android:layout_alignParentLeft="true"
+                android:id="@+id/ivbachelor"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/profile_circular_border_imageview22"
+                android:padding="5dp"/>
+            <LinearLayout
+                android:layout_alignBaseline="@+id/ivbachelor"
+                android:layout_marginStart="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:gravity="left">
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="ব্যাচেলর"/>
+            <TextView
+                android:id="@+id/tvTentStart"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:layout_marginTop="3dp"
+                android:text="000"/>
+
+                <TextView
+                    android:id="@+id/tvTentID"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:layout_marginTop="3dp"
+                    android:text="000"/>
+
+            <TextView
+                android:id="@+id/tvImg"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:layout_marginTop="3dp"
+                android:text="000"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnStates"
+                android:layout_alignParentRight="true"
+                android:layout_alignBaseline="@+id/ivbachelor"
+                android:gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAID"
+                android:background="@drawable/button_border_green"
+
+                />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
