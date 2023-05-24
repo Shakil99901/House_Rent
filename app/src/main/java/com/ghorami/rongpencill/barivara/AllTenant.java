@@ -278,7 +278,7 @@ public class AllTenant extends AppCompatActivity {
         if(uImage1.equals ("")){
             proPic.setImageDrawable(getResources().getDrawable(R.drawable.user));
         } else {
-            Picasso.with(this).load(uImage1).transform(new CircleTransform()).into(proPic);
+//            Picasso.with(this).load(uImage1).transform(new CircleTransform()).into(proPic);
         }
 
 

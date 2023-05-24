@@ -240,11 +240,12 @@ public class AllTenantBill extends AppCompatActivity implements View.OnClickList
                                            @NonNull String permissions[],
                                            @NonNull int[] grantResults) {
         // Make sure it's our original READ_CONTACTS request
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == WRITE_REQUEST_CODE) {
             if (grantResults.length == 2 &&
                     grantResults[0] == PackageManager.PERMISSION_GRANTED
                     && grantResults[1] == PackageManager.PERMISSION_GRANTED
-                  ){
+            ) {
 
                 //Toast.makeText(this, "Record Audio permission granted", Toast.LENGTH_SHORT).show();
 
@@ -524,7 +525,7 @@ public class AllTenantBill extends AppCompatActivity implements View.OnClickList
         if(uImage1.equals ("")){
             proPic.setImageDrawable(getResources().getDrawable(R.drawable.user));
         } else {
-            Picasso.with(this).load(uImage1).transform(new CircleTransform()).into(proPic);
+//            Picasso.with(this).load(uImage1).transform(new CircleTransform()).into(proPic);
         }
 
 

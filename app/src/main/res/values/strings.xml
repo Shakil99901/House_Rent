@@ -392,31 +392,34 @@ Barivara is a mobile apps based on the house rent for Bangladeshi people. The ma
 Barivara will provide the exact information regarding the home / house / flat / apartment rent that are available for the rent and their status specific to availability. It will help the visitor to see the details of rental and can communicate to them with the required information that is expected by the system through the latest digital devices.
 
 </string>
-    <string name="terms">
-Your privacy is important to me and I\'m committed to protecting the information that identifies you personally, where you have chosen to keep it private ("Personal Information").
 
-When you provide public information without identifying yourself, I\'m ensuring you that I will protect your personal identity. Please keep in mind that I\'m not responsible for any Personal Information you choose to submit in any public area of the Services. I won\'t identify you personally to third parties, except in accordance with this privacy policy. Of course, if you choose to respond to an advertised offer with your name and contact information, you will no longer be anonymous to the advertiser.
+    <string name="terms">terms</string>
+<!--    <string name="terms">-->
+<!--Your privacy is important to me and I\'m committed to protecting the information that identifies you personally, where you have chosen to keep it private ("Personal Information").-->
 
-I will retain your Personal Information for as long as you have an active account, as needed to provide you with the services, to comply with our legal, financial reporting, or compliance obligations, and to enforce this privacy policy. Please note that while I'm ready to assist you in managing the Personal Information you provide to us, I can't always delete records due to financial reporting, compliance, or other reasons.
+<!--When you provide public information without identifying yourself, I\'m ensuring you that I will protect your personal identity. Please keep in mind that I\'m not responsible for any Personal Information you choose to submit in any public area of the Services. I won\'t identify you personally to third parties, except in accordance with this privacy policy. Of course, if you choose to respond to an advertised offer with your name and contact information, you will no longer be anonymous to the advertiser.-->
 
-If you have any questions about this privacy statement, or the privacy practices, please email us at barivara01@gmail.com.
+<!--I will retain your Personal Information for as long as you have an active account, as needed to provide you with the services, to comply with our legal, financial reporting, or compliance obligations, and to enforce this privacy policy. Please note that while I'm ready to assist you in managing the Personal Information you provide to us, I can't always delete records due to financial reporting, compliance, or other reasons.-->
 
-Please note that this policy may be amended from time to time. You should check back for the most current version before relying on any of the provisions in this privacy policy. By using the Services, you agree to the terms of this Privacy Policy.
-ó Updated April 2023
-    </string>
+<!--If you have any questions about this privacy statement, or the privacy practices, please email us at barivara01@gmail.com.-->
+
+<!--Please note that this policy may be amended from time to time. You should check back for the most current version before relying on any of the provisions in this privacy policy. By using the Services, you agree to the terms of this Privacy Policy.-->
+<!--ó Updated April 2023-->
+<!--    </string>-->
 
     <string name="discloser">Barivara</string>
     <string name="others">Barivara</string>
-    <string name="privacy">
-Your privacy is important to me and I\'m committed to protecting the information that identifies you personally, where you have chosen to keep it private ("Personal Information").
+    <string name="privacy">privacy</string>
+<!--    <string name="privacy">-->
+<!--Your privacy is important to me and I\'m committed to protecting the information that identifies you personally, where you have chosen to keep it private ("Personal Information").-->
 
-When you provide public information without identifying yourself, I\'m ensuring you that I will protect your personal identity. Please keep in mind that I\'m not responsible for any Personal Information you choose to submit in any public area of the Services. I won\'t identify you personally to third parties, except in accordance with this privacy policy. Of course, if you choose to respond to an advertised offer with your name and contact information, you will no longer be anonymous to the advertiser.
+<!--When you provide public information without identifying yourself, I\'m ensuring you that I will protect your personal identity. Please keep in mind that I\'m not responsible for any Personal Information you choose to submit in any public area of the Services. I won\'t identify you personally to third parties, except in accordance with this privacy policy. Of course, if you choose to respond to an advertised offer with your name and contact information, you will no longer be anonymous to the advertiser.-->
 
-I will retain your Personal Information for as long as you have an active account, as needed to provide you with the services, to comply with our legal, financial reporting, or compliance obligations, and to enforce this privacy policy. Please note that while I'm ready to assist you in managing the Personal Information you provide to us, I can't always delete records due to financial reporting, compliance, or other reasons.
+<!--I will retain your Personal Information for as long as you have an active account, as needed to provide you with the services, to comply with our legal, financial reporting, or compliance obligations, and to enforce this privacy policy. Please note that while I'm ready to assist you in managing the Personal Information you provide to us, I can't always delete records due to financial reporting, compliance, or other reasons.-->
 
-If you have any questions about this privacy statement, or the privacy practices, please email us at barivara01@gmail.com.
+<!--If you have any questions about this privacy statement, or the privacy practices, please email us at barivara01@gmail.com.-->
 
-Please note that this policy may be amended from time to time. You should check back for the most current version before relying on any of the provisions in this privacy policy. By using the Services, you agree to the terms of this Privacy Policy.
-ó Updated April 2023
-  </string>
+<!--Please note that this policy may be amended from time to time. You should check back for the most current version before relying on any of the provisions in this privacy policy. By using the Services, you agree to the terms of this Privacy Policy.-->
+<!--ó Updated April 2023-->
+<!--  </string>-->
 </resources>

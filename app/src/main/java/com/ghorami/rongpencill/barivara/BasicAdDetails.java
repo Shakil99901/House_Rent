@@ -876,35 +876,35 @@ public class BasicAdDetails extends AppCompatActivity implements View.OnClickLis
 
     private void reqSignIn() {
 
-        android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(this);
-        LayoutInflater inflater = this.getLayoutInflater();
-        View dialogView = inflater.inflate(R.layout.req_signin_dialogue, null);
-        builder.setView(dialogView);
-        builder.setCancelable(true);
-        final AlertDialog dialog = builder.create();
-        dialog.show();
-
-        ImageView prImage = (ImageView) dialogView.findViewById(R.id.my_image);
-        Button btnSignin = (Button) dialogView.findViewById(R.id.btnSignin);
-        Button btnCancel = (Button) dialogView.findViewById(R.id.btnCancel);
-
-        btnSignin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               // Toast.makeText(getApplicationContext(), "Sorry sir!! you need to login first", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(BasicAdDetails.this, Login.class);
-                startActivity(i);
-                finish();
-            }
-        });
-
-
-        btnCancel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialog.cancel();
-            }
-        });
+//        android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(this);
+//        LayoutInflater inflater = this.getLayoutInflater();
+//        View dialogView = inflater.inflate(R.layout.req_signin_dialogue, null);
+//        builder.setView(dialogView);
+//        builder.setCancelable(true);
+//        final AlertDialog dialog = builder.create();
+//        dialog.show();
+//
+//        ImageView prImage = (ImageView) dialogView.findViewById(R.id.my_image);
+//        Button btnSignin = (Button) dialogView.findViewById(R.id.btnSignin);
+//        Button btnCancel = (Button) dialogView.findViewById(R.id.btnCancel);
+//
+//        btnSignin.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//               // Toast.makeText(getApplicationContext(), "Sorry sir!! you need to login first", Toast.LENGTH_LONG).show();
+//                Intent i = new Intent(BasicAdDetails.this, Login.class);
+//                startActivity(i);
+//                finish();
+//            }
+//        });
+//
+//
+//        btnCancel.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                dialog.cancel();
+//            }
+//        });
 
 
     }
